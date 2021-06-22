@@ -1,0 +1,15 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  text-align: center;
+  font: 3em cursive;
+  border-radius: 10px;
+  border: red 2px solid;
+  width: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  height: 200px;
+}
