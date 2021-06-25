@@ -11,17 +11,21 @@ def homePage():
 def aboutPage():
     return render_template('./about.html')
 
+
 @app.route('/component')
 def componentsPage():
     return render_template('./components.html')
+
 
 @app.route('/contact')
 def contactPage():
     return render_template('./contact.html')
 
+
 @app.route('/works')
 def worksPage():
     return render_template('./works.html')
+
 
 @app.route('/works/work')
 def workPage():
