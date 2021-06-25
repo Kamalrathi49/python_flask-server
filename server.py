@@ -2,11 +2,27 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/<username>/<int:post_id>')
-def hello_world(username=None):
-    return render_template('./index.html', name=username)
+@app.route('/')
+def homePage():
+    return render_template('./index.html')
 
 
-@ app.route('/2')
-def page2():
-    return "this is 2nd page"
+@ app.route('/about')
+def aboutPage():
+    return render_template('./about.html')
+
+@app.route('/component')
+def componentsPage():
+    return render_template('./components.html')
+
+@app.route('/contact')
+def contactPage():
+    return render_template('./contact.html')
+
+@app.route('/works')
+def worksPage():
+    return render_template('./works.html')
+
+@app.route('/works/work')
+def workPage():
+    return render_template('./work.html')
