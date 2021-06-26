@@ -1,0 +1,6 @@
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: form, 
+   message: this is a message 
+]

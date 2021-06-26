@@ -13,7 +13,7 @@ def store_data(data):
         email = data["email"]
         subject = data["subject"]
         message = data["message"]
-        file =  database.write(f"\n name:{name}, email:{email}, subject{subject}, message:{message}")
+        file =  database.write(f"\n[ \n   name: {name}, \n   email: {email}, \n   subject: {subject}, \n   message: {message} \n]")
     
 
 
