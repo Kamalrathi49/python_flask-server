@@ -8,8 +8,12 @@ def homePage(page_name):
 
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
-    if request.method == ['POST']:
+    if request.method == 'POST':
         data = request.form.to_dict()
+        print(data)
+        return "form submited"
+    else:
+        return 'something went wrong, try again later'
 
 
 
