@@ -14,7 +14,9 @@ def store_data_txt(data):
         email = data["email"]
         subject = data["subject"]
         message = data["message"]
-        txtfile =  database.write(f"\n[ \n   name: {name}, \n   email: {email}, \n   subject: {subject}, \n   message: {message} \n]")
+        txtfile = database.write(
+            f"\n[ \n   name: {name}, \n   email: {email}, \n   subject: {subject}, \n   message: {message} \n]")
+
 
 def store_data_csv(data):
     with open("database.csv", "a", newline="") as database2:
@@ -22,8 +24,9 @@ def store_data_csv(data):
         email = data["email"]
         subject = data["subject"]
         message = data["message"]
-        csvfile =  csv.writer(database2, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL)
-        csvfile.writerow([name, email, subject, message]) 
+        csvfile = csv.writer(database2, delimiter=",",
+                             quotechar="|", quoting=csv.QUOTE_MINIMAL)
+        csvfile.writerow([name, email, subject, message])
 
 
 @app.route('/submit_form', methods=['POST', 'GET'])
@@ -32,8 +35,10 @@ def submit_form():
         try:
             data = request.form.to_dict()
             store_data_txt(data)
-            return render_template("thankyou.html", thankyou="Thank you ,", msg="I will be in touch with you shortly")
+            return render_template("thankyou.html", thankyou="Thank you,", msg="I will be in touch with you shortly.")
+
         except:
             return "did not saved to darabase"
     else:
-        return render_template("thankyou.html", thankyou=None, msg="'something went wrong, try again later'")
+        return render_template("thankyou.html", thankyou=None, msg="Something went wrong, please try again!")
+
