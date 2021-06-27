@@ -1,12 +1,79 @@
+
 [ 
-   name: Kamal Rathi, 
-   email: kamalrathi049@gmail.com, 
-   subject: contact, 
-   message: hhhhhhhhhhhhhhhhhhhh 
+   name: Kamal, 
+   email: email@gmail.com, 
+   subject: form, 
+   message: sucess 
+]
+[ 
+   name: deepak, 
+   email: dbhamla7@yahoo.com, 
+   subject: error, 
+   message: erroe 
 ]
 [ 
    name: Kamal Rathi, 
    email: kamalrathi049@gmail.com, 
-   subject: contact, 
-   message: hhhhhhhhhhhhhhhhhhhh 
+   subject: form, 
+   message: sucess 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: form, 
+   message: sucess 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: form, 
+   message: sucess 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: form, 
+   message: sucess 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: form, 
+   message: sucess 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: checking new func, 
+   message: new render func 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: checking new func, 
+   message: new render func 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: checking new func, 
+   message: new render func 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: checking new func, 
+   message: new render func 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: checking new func, 
+   message: new render func 
+]
+[ 
+   name: Kamal Rathi, 
+   email: kamalrathi049@gmail.com, 
+   subject: checking new func, 
+   message: new render func 
 ]
