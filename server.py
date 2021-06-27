@@ -29,8 +29,11 @@ def store_data_csv(data):
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
     if request.method == 'POST':
-        data = request.form.to_dict()
-        store_data_txt(data)
-        return render_template("thankyou.html", thankyou="Thank you ,", msg="I will be in touch with you shortly")
+        try:
+            data = request.form.to_dict()
+            store_data_txt(data)
+            return render_template("thankyou.html", thankyou="Thank you ,", msg="I will be in touch with you shortly")
+        except:
+            return "did not saved to darabase"
     else:
         return render_template("thankyou.html", thankyou=None, msg="'something went wrong, try again later'")
